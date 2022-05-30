@@ -22,6 +22,12 @@
       "@routes/*": [
         "./src/ts/routes/*"
       ],
+      "@InstagramType": [
+        "./src/ts/types/InstagramType"
+      ],
+      "@YoutubeType": [
+        "./src/ts/types/YoutubeType"
+      ],
       "@hooks/*": [
         "./src/ts/hooks/*"
       ],

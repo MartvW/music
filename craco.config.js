@@ -9,6 +9,8 @@ const createAliases = (prefix) => ({
     '@types': `${prefix}/ts/types`,
     '@hooks': `${prefix}/ts/hooks`,
     '@repository': `${prefix}/ts/repository`,
+    '@InstagramType': `${prefix}/ts/types/InstagramType`,
+    '@YoutubeType': `${prefix}/ts/types/YoutubeType`,
     '@utils': `${prefix}/ts/utils`,
 });
 
