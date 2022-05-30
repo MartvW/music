@@ -10,7 +10,7 @@ const ContactPage = () => (
             <div className='container md:px-10 md:py-10 md:w-3/4 w-full'>
                 <div className="flex md:w-full md:justify-evenly justify-center md:gap-0 gap-[25px]">
                     <Contact src={InstagramPNG} alt='Instagram' href='https://www.instagram.com/musicbymart/' />
-                    <Contact src={YoutubePNG} alt='Youtube' href='https://www.instagram.com/musicbymart/' />
+                    <Contact src={YoutubePNG} alt='Youtube' href='https://www.youtube.com/channel/UCisi9qaEjEmbAXnX5qDewJw' />
                     <Contact src={MailPNG} alt='Mail' href='mailto:mart@martvanweeghel.nl' />
                 </div>
             </div>
