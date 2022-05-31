@@ -1,8 +1,8 @@
 import ScrollButtons from '@components/features/scrollButtons/ScrollButtons';
+import AboutPage from "@components/pages/aboutPage/AboutPage";
 import ContactPage from '@components/pages/contactPage/ContactPage';
 import HomePage from '@components/pages/homePage/HomePage';
 import InstagramPage from '@components/pages/instagramPage/InstagramPage';
-import VideosPage from '@components/pages/youtubePage/YoutubePage';
 import Seperator from '@components/primitives/seperator/Seperator';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
@@ -12,9 +12,9 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <HomePage />
     <Seperator />
-    <InstagramPage />
+    <AboutPage />
     <Seperator />
-    <VideosPage />
+    <InstagramPage />
     <Seperator />
     <ContactPage />
     <ScrollButtons />

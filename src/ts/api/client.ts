@@ -6,7 +6,7 @@ const axiosInstance = axios.create({
     baseURL: 'https://api.martvanweeghel.nl/martvanweeghel',
     headers: {
         'Accept': 'application/json',
-        'Cache-Control': 'no-cache',
+        // 'Cache-Control': 'no-cache',
     }
 });
 
