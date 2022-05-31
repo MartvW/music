@@ -9,7 +9,7 @@ const AboutPage = () => {
     };
 
     return (
-        <div className='my-24 md:h-screen h-fit w-full flex justify-center items-center py-24 px-24'>
+        <div className='my-24 md:h-screen h-fit w-full flex justify-center items-center py-24 md:px-24 px-5'>
             <div id='about' className='w-full h-full flex justify-center items-center flex-col gap-5'>
                 <h1 className='text-5xl font-thin'>About</h1>
                 <div className='mt-5 flex flex-col gap-7 items-center'>

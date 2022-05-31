@@ -2,6 +2,7 @@ import axios from 'axios';
 
 const defaultTimeoutLength = 4000; // 4 seconds
 
+
 const axiosInstance = axios.create({
     baseURL: 'https://api.martvanweeghel.nl/martvanweeghel',
     headers: {

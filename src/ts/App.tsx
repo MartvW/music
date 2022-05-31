@@ -3,6 +3,7 @@ import AboutPage from "@components/pages/aboutPage/AboutPage";
 import ContactPage from '@components/pages/contactPage/ContactPage';
 import HomePage from '@components/pages/homePage/HomePage';
 import InstagramPage from '@components/pages/instagramPage/InstagramPage';
+import YoutubePage from "@components/pages/youtubePage/YoutubePage";
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 const queryClient = new QueryClient();
@@ -12,6 +13,7 @@ const App = () => (
     <HomePage />
     <AboutPage />
     <InstagramPage />
+    <YoutubePage />
     <ContactPage />
     <ScrollButtons />
   </QueryClientProvider>
