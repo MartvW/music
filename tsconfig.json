@@ -1,42 +1,19 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "paths": {
-      "@images/*": [
-        "./src/images/*"
-      ],
-      "@sass/*": [
-        "./src/sass/*"
-      ],
-      "@api/*": [
-        "./src/ts/api/*"
-      ],
-      "@components/*": [
-        "./src/ts/components/*"
-      ],
-      "@routes/*": [
-        "./src/ts/routes/*"
-      ],
-      "@InstagramType": [
-        "./src/ts/types/InstagramType"
-      ],
-      "@YoutubeType": [
-        "./src/ts/types/YoutubeType"
-      ],
-      "@hooks/*": [
-        "./src/ts/hooks/*"
-      ],
-      "@repository/*": [
-        "./src/ts/repository/*"
-      ],
-      "@utils/*": [
-        "./src/ts/utils/*"
-      ]
+      "@images/*": ["./src/images/*"],
+      "@sass/*": ["./src/sass/*"],
+      "@api/*": ["./src/ts/api/*"],
+      "@components/*": ["./src/ts/components/*"],
+      "@routes/*": ["./src/ts/routes/*"],
+      "@InstagramType": ["./src/ts/types/InstagramType"],
+      "@YoutubeType": ["./src/ts/types/YoutubeType"],
+      "@ContactType": ["./src/ts/types/ContactType"],
+      "@hooks/*": ["./src/ts/hooks/*"],
+      "@repository/*": ["./src/ts/repository/*"],
+      "@utils/*": ["./src/ts/utils/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,
@@ -52,7 +29,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

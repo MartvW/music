@@ -1,18 +1,18 @@
-@import 'tailwind.scss';
+@import "tailwind.scss";
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .defaultFont {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 * {
-    font-family: 'Saira', sans-serif;
-    transition: 0.1s;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  font-family: "Saira", sans-serif;
+  transition: 0.1s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
