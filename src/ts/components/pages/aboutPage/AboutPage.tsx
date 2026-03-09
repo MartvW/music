@@ -17,20 +17,19 @@ const AboutPage = () => {
         <h1 className="text-5xl font-thin">About</h1>
         <div className="mt-5 flex flex-col gap-7 items-center">
           <p className="md:text-xl text-md">
-            Hey, I'm <Highlight color="orange">Mart van Weeghel</Highlight> I am{" "}
+            Hi, I'm <Highlight color="orange">Mart van Weeghel</Highlight> a {" "}
             <Highlight color="blue">
-              {calculateAge("2004-04-30 00:00")} years old
+              {calculateAge("2004-04-30 00:00")}-year-old
             </Highlight>{" "}
-            and currently living in{" "}
+            musician from{" "}
             <Highlight color="red">The Netherlands</Highlight>
           </p>
           <p className="md:text-xl text-md">
-            I started playing piano when I was about{" "}
-            <Highlight color="yellow">6 years</Highlight> old, and in 2021 I
-            started playing guitar.
+            I started playing piano when I was around{" "}
+            <Highlight color="yellow">6 years</Highlight> old.
           </p>
           <p className="md:text-xl text-md">
-            I like to play <Highlight color="green">worship and pop</Highlight>{" "}
+            I especially enjoy playing <Highlight color="green">worship and pop</Highlight>{" "}
             songs on the piano.
           </p>
         </div>
